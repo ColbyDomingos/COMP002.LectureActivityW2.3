@@ -39,3 +39,13 @@ switch (true) {
         break;
 }
 
+// I prefer to use if else statements as im more used to them. 
+// Switch statements are much easier to understand and look clearer as its less to look at.
+
+for (let i = 1; i <= 100; i++){
+    if (i % 2 !== 0){
+        console.log("!");
+    } else {
+        console.log(i);
+    }
+}
